@@ -5,79 +5,56 @@ Generate Computer Inventory
 
 Bash script written and compiled with help from different sources, which is why I am making this available for anyone to use freely.
 
+This script collects various information about the computer it is run on, and writes it to a CSV text file.
+
 Here is what the script collects:
 
-HWAddress
-EN0 HW Address
+* HWAddress - EN0 HW Address
 
-SerialNumber
-  Computer Serial Number
+* SerialNumber - Computer Serial Number
 
-AssetTag
-  Asset Tag from ARD Text Field #2 in "System Preferences > Sharing > ARD > Computer Settings"
+* AssetTag - Asset Tag from ARD Text Field #2 in "System Preferences > Sharing > ARD > Computer Settings"
 
-Model
-  Computer Model
+* Model - Computer Model
 
-OSVersion
-  Operating System Version
+* OSVersion - Operating System Version
 
-RAM
-  System RAM Size
+* RAM - System RAM Size
 
-CPUType
-  System CPU Model Name
+* CPUType - System CPU Model Name
 
-CPUSpeed
-  System CPU Speed
+* CPUSpeed - System CPU Speed
 
-HDSize
-  System Hard Drive Size
+* HDSize - System Hard Drive Size
 
-ComputerName
-  Computer Name
+* ComputerName - Computer Name
 
-ComputerHostName
-  Computer Host Name
+* ComputerHostName - Computer Host Name
 
-EN0IPAddress
-  EN0 IP Address
+* EN0IPAddress - EN0 IP Address
 
-EN1IPAddress
-  EN1 IP Address
+* EN1IPAddress - EN1 IP Address
 
-DefaultPrinter
-  Default System Printer
+* DefaultPrinter - Default System Printer
 
-FlashVersion
-  Adobe Flash Version plugin installed
+* FlashVersion - Adobe Flash Version plugin installed
 
-TimeStamp
-  Time Stamp when this inventory report was generated
+* TimeStamp - Time Stamp when this inventory report was generated
 
-ScreenResolution
-  Current Computer Screen Resolution
+* ScreenResolution - Current Computer Screen Resolution
 
-GCI_Version
-  Current GCI Version
+* GCI_Version - Current GCI Version
 
-firefoxVersion
-  Current Firefox Browser Version
+* firefoxVersion - Current Firefox Browser Version
 
-javaVersion
-  Current JAVA software version installed
+* javaVersion - Current JAVA software version installed
 
-acrobatVersion
-  Adobe Acrobat PDF Internet plugin version installed
+* acrobatVersion - Adobe Acrobat PDF Internet plugin version installed
 
-lastOSUpdate
-  Last auto OS Update
+* lastOSUpdate - Last auto OS Update
 
-munkiVersion
-  Currently installed Munki Version
+* munkiVersion - Currently installed Munki Version
 
-safariVersion
-  Currently installed Safari Browser installed
-
+* safariVersion - Currently installed Safari Browser installed
 
 
